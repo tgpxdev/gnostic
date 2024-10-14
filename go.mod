@@ -3,7 +3,7 @@ module github.com/google/gnostic
 go 1.12
 
 replace (
-	github.com/google/gnostic => ./
+	github.com/google/gnostic => ./..
 )
 
 require (
